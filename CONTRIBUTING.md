@@ -1,1 +1,1 @@
-If you want to contribute in this project you are welcome. But make sure you read our [Code-Of-Conduct](https://github.com/AmjadNoor/congruence-checker/blob/master/CODE_OF_CONDUCT.md).
+If you want to contribute in this project you are welcome. But make sure you read our [Code-Of-Conduct](https://github.com/AmjadNoor/congruence-checker/blob/master/CODE_OF_CONDUCT.md). First creat an issue then I will merge your code related to issue. So, first raise an issue.
