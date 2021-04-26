@@ -22,11 +22,22 @@
 
          if (input) {
              alert('Please fill the criteria.');
+             //confirm("How are you?")
          } else {
              return type_1();
          };
      };
      return blankChecker();
+
+  /*   function checkValidity() {
+         let check = input_1 + input_2 >= input_3 || input_2 + input_3 >= input_1 || input_3 + input_1 >= input_2;
+        if (check == true) {
+            alert("Yes");
+        } else {
+            alert("The triangle is not possible.");
+        };
+     };
+     return checkValidity();*/
 
      function type_1() {
          let exp_1 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [0] && select_4 == [0] && select_2 == [0] && select_5 == [0] && select_3 == [0] && select_6 == [0];
@@ -36,15 +47,15 @@
          let exp_4 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [1] && select_4 == [1] && select_2 == [0] && select_5 == [0] && select_3 == [1] && select_6 == [1];
 
          if (exp_1) {
-             document.querySelector('.para').innerHTML = 'This triangle is congruence by the rule of SSS(Side Side Side).';
+             document.querySelector('.para').innerHTML = `This triangle is congruence by the rule of SSS(Side Side Side).`;
          } else if (exp_2) {
-             document.querySelector('.para').innerHTML = 'This triangle is congruence by the rule of SAS(Side Angle Side).';
+             document.querySelector('.para').innerHTML = `This triangle is congruence by the rule of SAS(Side Angle Side).`;
          } else if (exp_3) {
-             document.querySelector('.para').innerHTML = 'This triangle is congruence by the rule of AAS(Angle Angle Side).';
+             document.querySelector('.para').innerHTML = `This triangle is congruence by the rule of AAS(Angle Angle Side).`;
          } else if (exp_4) {
-             document.querySelector('.para').innerHTML = 'This triangle is congruence by the rule of ASA(Angle Side Angle).';
+             document.querySelector('.para').innerHTML = `This triangle is congruence by the rule of ASA(Angle Side Angle).`;
          } else {
-             document.querySelector('.para').innerHTML = 'This is not a congruence triangle..';
+             document.querySelector('.para').innerHTML = `This is not a congruence triangle..`;
          };
      };
  };
