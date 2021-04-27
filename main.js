@@ -23,15 +23,17 @@
          if (input) {
              alert('Please fill the criteria.');
          } else {
-             return type_1();
+             type_1();
          };
      };
+     return blankChecker();
 
      function type_1() {
          let exp_1 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [0] && select_4 == [0] && select_2 == [0] && select_5 == [0] && select_3 == [0] && select_6 == [0];
          let exp_2 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [0] && select_4 == [0] && select_2 == [1] && select_5 == [1] && select_3 == [0] && select_6 == [0];
          let exp_3 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [1] && select_4 == [1] && select_2 == [1] && select_5 == [1] && select_3 == [0] && select_6 == [0];
          let exp_4 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [1] && select_4 == [1] && select_2 == [0] && select_5 == [0] && select_3 == [1] && select_6 == [1];
+        // let exp_5 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [] && select_4 == [] && select_2 == [] && select_5 == [] && select_3 == [] && select_6 == [];
 
          if (exp_1) {
              document.querySelector('.para').innerHTML = `This triangle is congruence by the rule of SSS(Side Side Side).`;
@@ -45,7 +47,6 @@
              document.querySelector('.para').innerHTML = `This is not a congruence triangle..`;
          };
      };
-     return blankChecker();
  };
 
  function submitForm() {
