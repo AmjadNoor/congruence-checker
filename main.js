@@ -26,7 +26,6 @@
              return type_1();
          };
      };
-     return blankChecker();
 
      function type_1() {
          let exp_1 = input_1 === input_4 && input_2 === input_5 && input_3 === input_6 && select_1 == [0] && select_4 == [0] && select_2 == [0] && select_5 == [0] && select_3 == [0] && select_6 == [0];
@@ -46,6 +45,7 @@
              document.querySelector('.para').innerHTML = `This is not a congruence triangle..`;
          };
      };
+     return blankChecker();
  };
 
  function submitForm() {
